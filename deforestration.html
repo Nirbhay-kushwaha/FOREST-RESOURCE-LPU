@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deforestation Impact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #8B4513;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #A0522D;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        .deforestation-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .deforestation-images {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .deforestation-images img {
+            width: 30%;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        .deforestation-images img:hover {
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        footer {
+            background-color: #8B4513;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Deforestation Impact</h1>
+        <p>Understanding the Consequences of Deforestation</p>
+    </header>
+
+    <nav>
+        <a href="rescources.html">Home</a>
+        <a href="./natural.html">Natural</a>
+        <a href="./afforestration.html">Afforestration</a>
+        
+    </nav>
+
+    <section>
+        <div class="deforestation-info">
+            <h2>Deforestation Overview</h2>
+            <p>Deforestation is the clearing, removal, or depletion of forests. It has severe consequences on the
+                environment, including loss of biodiversity, disruption of ecosystems, and contribution to climate
+                change.</p>
+        </div>
+
+        <div class="deforestation-images">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQVFBgVFRQZGRgYGRsZGRoaGxoYGhoaGxoaGRobGhscIC0kHSIpIBgaJTclKS4wNDQ0GyM5PzkxPi02NDABCwsLEA8QHRISHjsrJCkyMjUyMjI7NTIyMjIyMjIyMjIyMjI1MjIyMjIyMjIyNTIyNTIyMjIyMjIyMjIyMjIyMv/AABEIAKsBJwMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAADBAIFAAEGBwj/xABCEAACAQMCBAMGBAQFAwEJAAABAhEAAyESMQRBUWEFInETMoGRobEGQsHwFFLR4RUjYnLxM4KSQwcWF1Njk6Ky0v/EABkBAAMBAQEAAAAAAAAAAAAAAAABAgMEBf/EACYRAAICAgICAgICAwAAAAAAAAABAhEhMRJBA1ETImFxBBQykaH/2gAMAwEAAhEDEQA/AHL/AIbctiWQgdYMUAW673j72qQSI2Ncvc4UayEOrp1ruh5OWzzfJ4lF4Ks26wJTj2DzoZtxWiZjQALUlFF0VrTTEYDU0cjIqEVuih2busTnnQuIfUINEoTilQ+Qm1vNDdYOKZcUErVkkBWGtlaymFgyKgy0eK0VpiFtNa00fRWtFMBdkqOim1tSa0bdFgL+yqHs6c003Y4VTzn97VLlQ1GxDhUJYKOeK9G8OtMLaiACBmuT4Zwp8q9pO/ar3gfEMQ5g/KuXzXI7PBURriZU8qQvcQSc0fibinYg+hpZLU5rBL2dDd6DhwBgUzbAZZNVrYqC8cVBEU+N6FyrZHjtIMCqPi7zDY0/xF+c5FJbsdQB6VrCNbMZyvQi91980z4fbbUCxhTz+1HTymWI9KNc8QRdgDVtvSRKS22NcZG4NU/FvPMVnEeIFsDFIvdmlHxtCn5U9ALyilmWjvUCtbpHM3YBlrKKUrVAj0a6Cc1rhn0MG6UYCsVK5jo7seveH3Lg1eWDkAnOaruO8PuW8OPQ7j51Z8NxBA0nblTlq4QQQ+rqpqFOUTXhGRyLJFDKV2KeH27hOoAZmI+x5VO/4PwyqQVIn82o/TMfStPmRH9eRxJWtaa6FPAtbQriO+49R+/hUeI/DtxZ0srQCf5Tjsav5Y+zP4Zejn4qJWnHsEYIyKgbdaJmbQm6UF7dWXs6w2Jp2Kiq9nWjbqyPC5rGsCjkLiVvsqkEp42qgbNOx8RdUmtNappEqZtUrCiv0VhSacaxWlt0WFCLW6jpIqxe3QfZ0WKgCORzpleKMZoZs1nsjSaTKUmhizxAFMP4iAcTFIeyrRtjnUOEWWvJJYDnxLMx9aXu8UxM7elaZBUGWmoR9A/JJ9mX+KJEUqzE5mislQKVSSRDk3sE80MimClRK0yRZlqBWmitQK0wAezrPZ0aKn7LEmk2NKxUqKyjaRWVBVHfItFCUb+FI3FSVKws6OIvFTWaN7OpBKVjSIJxLjfP6UynEq4g4+1D9nUPYRUtItOSJyFMg5p2xxCn3s+tItaqR4VgJpNIpNronx/DB+Ykbf0pfieEt+zUgANzphuCfqPnSz22GDVRf5Jkt2iuNkVo2hTb2qG1utkzFxFjbobJTRt1Ek9Kdk0JOlCZafZT0oTWz0ppktCZFbFPJwbmPKYPOKNxHhpWIYGfgaHNaGvHJqyqrIpv+HOcbURuDgSRM9D+lJyQlBsrtNaq2HCgAOVwcQaivCZErIPf5UfIivjZVx2rQQ9KuuGtQwEQZ5k/anmsIpOMGpflrouPhvs5h+Fub6Tnpn7UqwrquI4hVHeqPiIJJjeqhNvaI8kFHTK4rWilNNboZStbMaFilQKUyUqJSmIWK1HTTBSom3QAuVrRSmPZ1O3wzOYVWY9FBJ+lJsEmxPTUStO3eGZDDKVPQiKEUowx5QtprKObdZSoLPTQk1oWKOiUZVrg5Ho8RUWal7KmgtbijkPiKaKjo7U7FYbdHIfEQa2a0uoVYG3UDao5C4i2s0J7ZJzTfsqw2zQmDVkb8FDCKJ3gCaVs8Kp3NOqhqLWozTToTV5Ym/BDrQ24QCnyDRE4diJOKfN+xcE9IqhwwOAKw8ERy/WrVrA65/WhNqo5sfBLYG3xOkAdMVp7atls9P8AiiAR/wAVor2FL9DT9gzatCfKDO+/0nagX1TGknFHCgbitkLG2/Oiw2ABUqVJPb1oKERpIoumKJZtaj96NArYFrRZMKAAd+/ah8H4dcuOA+oINz17CrGSuIx67ViMw/MfjS5usDcE3kr/ABDwQCSrwI/NJ+tcxb4i27siOGKe9Ex0wYzBMV0f4k491suREgQNhBYhZz61wHhBNu+pRW8zaCs7AqJ1Rg9f6b1UPJJNJk+TwxabR0Xs60bVWPlY7aSdhyp7h/Byy6mbTOwAkx1rofkUdnKvE5Okc4bVRNmr3hvDSzERgEidpg8qurfg9pV92TGSckn7Col54oqP8Zs4614czZwB3on+E4ywroGsgEgoR8f0/e1JXrZJxU/NJmnwRSyV3B+D6idZhR0P9qv04tLaqqKqqNxv+/Wq9w8RIpdrRG7AYnflWc3y2zXxpQ/xQ3fZLxZS0dhGfnSl3w22oOm3qMcyZ70m4QD2guCBmZiI/wCKp+M/F7O0W9AgmWbIIA3jlNTLyKCVMqPjc27Q9xfAFIbQQD1IOayueueJcQFZxddhqAYr5gMGOZ0z0A5ZrKn+7+GD/gJ5tFh+BfGLVq4Fve0BbSqOHuG2CYWHthoiY3BgzsNvUOP461YXVduIgMxqYLqI5LJEmvnlOLiNG4EzzmfnW+J4+5dOu6zOx5kkn4kms+TK2erf/EO2LjKUBRSZbzA6dhESGY46DqRuOg/DP4jTjFdgpQo5WGYHUMkEfBTI5Qd4rwNL3I7dcVb+HeNNbNorJ9hqj3dJDaw2sR5vK5UT+sVSfsKPdLHi/Duzol1GZAWcKdRULvMelct+J/xQxtN/DPpMapiddvBLK4PljYjeGFed8d45cGsW2IV1AcaVTUdzAA8okTHzpz8M8Touf5lt3Q2oKCdbW7k6ntqJkKfNHQUK2LB03gn/ALQ7du0lu7bYlVIDKZkjTpnmBJIJzyql4v8AH3GXDpGgKCWIRSJUDZzMxv0qt8M4vh7V50uKSmsgPoVzIaR5G0iCIBxzmMVX+LpaF5vZTo1SnfAzBOMg4z05U3saOv8ABPxNxdy4iu1w6WGgWwpDgvB9qeYJYKPQ8816P4VduPaR7qBHYSyrMDJjcncQfjXzynF3LZADuBMkKxAMx09K778G+K3rVp7qgORCsrsygu8EEMzQTg8pxHcV0N5PUoqWmuK4z8W6tK+0PDvMMhTWWbBBV1BgGdoJ2711PhfEXLiFrlvQZ8uZ1LG8HI54NKxUMslER8VAisD9qANac5rBM9qwjvUNJ60xGO45jNQIqTJ1oZWKYjCk1F7NSBrc0ZBUCCDpU7bZrZFCRg0wQYJBjkRuKTKQcxS96dgaHxPGW7f/AFLiIce8wByYGN63wfFW7qa7bBlkiRMSPWOtJUmN5KP8QcBcdFIuaAh1EzGdhI57nHWK5i3wdx3uXFDl/aKqKAFgBVbUwiJghc7TzrsPEUvo2r2wRSIOF0k7g+c+UCCCM7zPKhfhy283Ga6ry/mhVyfZ286l2jaPX1p8shxwCV7du2jX2VXOSM9TmIkDaTtTvC+N2WaBeTOYLR250xxaWzIDoHOACwyZB0kTOdvjVXfW2B7W7b0qzBlm5bQBYAX841cz/wAU3K9kxjWi6e5MFTEbRSfEeNKhIa5LASVzjpq0g6fWKXXx3hdeg3VUgTk4/wDIeX61zni3j/C3HMxpUke0XzSABHkOJMTJkDSvU1EpRrBpGEm8l6fH/OyNbJcbpbJcgfzN5QI22J3p4XVaDBnGOYnr0rh/BPZHX/mRmUbSQ0ebJAOeRkV0/BcVYtStu6h5thncxkrpEZz9dqUJrsc4ZwWd4IilnZUURJYgD5muM/EPht57oNq7rW5qKgMAAFI8qwDJyP3mlfxDfTitb27igWwWFskh2AzPm3ODtMfGq/wvi7diXgOxt+UFmVkuEAQQAYJk7xj4VnKd70XGFa2b43w23Yebhd55FpIlZ2XeSCAQdjkTUPD0ssY9mSJn8wnysD1n58sb1U8dc1ksCdXP+s9opqz44xEEL5YgAHrM8s4Xf9ZrNSTyjRxawNcQbVjFp5JYkqcASo5EdOvSsqhvjWZ82cmSDnsTuN6ypv8AIUvQoijDRgDJHUVnEEt7u3SPT60KxdI8vI5+VFBMHHeuji7ObFEdgA0/uajbcqcf81BkjvUkPL5VpRDdsc4a9bGokEtHXei8NxVy3Fy2722AZVKkkqrYIBnEydoqvKGTFObL1nrypNUUq7FdTmWPXJMkknv170VGONzM/p/Q0Q7aX9B0HbHOjJwjYIIiDJOOZPPO5qv2JJ3gUdvNkTArp/A/xYbdp7bWw+FCE5KwSSxMHUR5ABjbeudRJJPMCB61Lh0IcYz0PrmQcdadYFeS58B4S5dvSp0vJgkMSSekcwDOa9rs8Q6WFe8M+UeU6i0wATiBO+5HevE+C8Re2TdC+Zgy4GE1CNS/ynYz2rp7f4uuexVGE6AAja3JEKVlgT55BBycRioZez0+22pQYieWJB5gxzFU5/ENj2xs+YMG0ltPkDSViZ6g5iNs1y3gf4zb2Rs3CS+StwFQYjVpM7HETB3pHw38RKtxrrWtZdyHGRLFRJBG8mTB6HAp0yHJHo3HcQLdtrjTCCcfKPnz5UDwXj2v2hca2UJJETIwcEHmD8K5wfiyzZshbVgsuZQnCqfePMHPLrNVn4b8cZHRmBcXHP8AmF4C6vy6TiJjAI3xTFySyd9xPGWrZAuXEQnYMwUnMYB70p41fdLataI8zINUa4DMBIUZaQTkVyPjt5bnEe22Kuq9iqDUSJGOkSd6PxPiQRVVLUnRrkt5QNWPMOszmN6ajuxOWqVnWcezJaLBwGUCSELdJhBJ+8UO1xqsfZnVIXzMVKDV0g7HtXJ3vElvcNca0SrqdMgRsQZUncRIqk4bxpwiv7TzwYliPMTzUbwAwwf7qVJ7HFt9Hphui3a13DAVSSTuQBj4npXn9v8AFly2hS3bVAV3JLvO0jYHESSMmmPxB4zcuWbVm40NqK3BAAaIKCYidjyjnVDxfCurqm0lR1mBt8Kw8k6dI6fFG02wPinFXWm6SXMAMzQTkSBn7UvwPi1+2JtAkE6iTOgNtMbTAAntQfELVxRExqiR1k4z+961w6MLYUNsXTuId55VN0i+Nui1u+N3brgXbmoQTpOwJ/lHIDtQbfjV6xrCMw1thpPlJUEkPsJxI6VXLwrFhpEk7/fep3eFJdlJOlWJ36SAYqdfYqr+tHReE/iqzadfaW2BZPNc1M51mdTxMrJ6Sdq5/jfFXdiCWKggDUztjlBYn9nlVdeQaSA3m2PYTIz8KxLpYHy7Hfmd5n5Crk20ZxVSGLjywiQc5OQDt8cik3uMMOD7pgmMgg7CrFeFJVcRMHH5pTVMdtR+dKeIWG1pBk8xGIKgSO9Zpq6NWnVio4h293EDljnyz0rdvjLlpjoLecQ0E5BqScOxCyDBn4jb+tS4Tw4ltRkDvz657VTaRnTYpf4ll2OYM7ggHH25Va2+JZgqzgARJ1eWBAM8h0od7w9XYRMzlthHzzT9yyVUAdSMD+VQTgbetYzkmkjeEWm2yn4i2VJ0t8/tQ+IcGcaZ3A64p7jE8xUYMyRA9PuKU4/hwpUsSNSgnAyTPP0H1qov2TNC7oY98g9p+RrKhdIntJAjt1rdXkzwBSx1YA9/7URWCnzNjORnbOxiZ/rSn8M4GJ3jAH1itpw7nB5AnboJ611ckc/FoO11TsI6jlRU0nnBicZFBUI2gjUAAA8btmSQTIBzG3Ib0bjOC0N5bupCNSkRq0SY1L+VhEER9DT5oXB7JqnmG8HPQ94BPmPPFFBCHzNgRMgjfMfKq/2HMs0ddh8MUS0gI0mSs9Au/PafmaXJDUWWlhUlWuMAJn809RHlzmiPxTOTEttOAwUycSOw+OarUCgwBOAAYHXtTC3GG2DkEao/TtUtotRZPUGkkwTnaBtU2ZBEtnK+6cH6z96X9odwxEAyQ8YB6EevLnQjeLRpKtHUgmPWR3qlIlw7LcMWIOqQR/qAmAOnatG8BC+aNtgZONUEmNx9arrTyYiZBkAiOWwn71q6jnAQjPJsDl1osKLdCukwToMCTAjME5OTBie1SPEeWDpI1FhPlMwAYkbRn5VSolwRqBOcZgn5PTF62yiWtkgkCNbOeskaj23ovOxON7Rc3vFWa2EFvSpgwsdenvdaLwnihtHZSOSkKwUz/L1gem1c0WQDNtBuMkqc9QFx9aj/ABSj8pWDzMifmD9KdkOK7Or8Q8e9qzEYVp8sgROOfoKC3jhCKmdITT6gYG3aP2a51eIBEgqIjZdQnPXmax+KTUzqrqpIVcv5QMYAAye550X0Uorouk8RRW1TuQGOSB3MdxHaKI/iVk6QCJBJx1J36GqP/EVB0yNMiSRvBkSZnvU04m2HJAQ5nfrsSNYz8OVQ0ikX1nxu2rjUQQpxkSpxnzEZkfes4nxq2zqyhiq6MsVBkAFokg8unWqR+KRYCoMDcNbPz1A9KJY45CfNbWYzL2Rt6KCazcVd0axk6qy8PitgEOxYtjHlMYGYn1pRPEbc3YVirXGdGIwA6BTIUwDqVuf61XPxiIWNxWh1bSbfs30ggjUANPfM8qrL/G22T2dsuQCHHXWoYKzBZiA5GDQop9A5NdnXcP4rw4A1agMklVJgEjGO0/LvQ+N422yFUfSxJIIAAIltiSOm3Y1yfA8YgYe0ta45gsrCZE6hz3MkHNO8fftq4NqyFUKpefO24B80DMMwyMR2ocVoam9lg/DrGouksIgOsxE5AJjcnvVh4bwFssZuIVkT5lUYgEAk7mfrSDKuCFgnfMnYGQCv3JqL6I91pH+yO/5v0rNu0aJUzpL3E2NeLihUJnYycqoGn0Pwqv4m5aZi4YYXSDGJMSR/2kj1qqfiCsBVbriI9ZBg/GlrzM4IKgQvkXaG8wyFiZlZ9OdTHxpdjl5G+i8stbY7ARkliIPPEbc6cuWbbe5nEAKcbcx0rl/ZrGVk43AzB2GN8fSs9ipOQOWcYG2AOlKUE3scZtLR1DcNaUMwhdIDaveLMJwsdJPwmguksFAlgyq/KGBAZZH+okEeg5VzjuUfSoAgypZjvG4UGef33oxuyUKXNQAIZ1lVnMMVnynrz6zikvFXY/lvFD/G2ybgJB94knbdiB8iQPSoeOcOvtEBglUtgdpGuR8WpV3aIliJJBkmCDvB7Zx1oWtsEtqg7GDEYHKhR/Im36E7fh7atXLMg45YrdNG5AAE4OcDeCJgiJ7xW6u2TSK1OKQgA2xMj3XdNsHDFhWXNGp2GtVXToUFXjUgkFyVJg9tp+K4XePhO56Dtt1oSs0/6TA9P771sZYGrXlBiB6DeN/vWK+dpEen/NRsvMDJntj4fb4U1cQacKAQATvnbkSeR5RNFCtAGuHT5Y5SDgDPX4itpxLxlcA7jI/Sa3e9oCAANyrAyAIiJMdSeX3oL8VpgaIkH84MzIH5KErBuhl3ODAH+4hek4+FSN8mS+n4BVEbcuuKUs3CROkHH5nE7zEaaIt0CVa1PTS5gRzgKSZz86OIcgrviFG5EmcKJnEjp96E/hyMSZPU7E1iXjj/AC2Iyeex5dYx05mhvx4kf5LKRyz68xIppNaBtPYzbs+z93UVwSpAJI+A778hTa3xCkrBOdmEx5YEmCMEVX/4qMQsTuWgz9BGOlWNjxa6o8lxlXeBpZZ7KQR6xFJqXY4yj0bFxgTpMryBG2Tk/T1o63OjBSesdDgdDRD425ADexbmXNq2GMwRBj6R161JfFVf/q8Pw7wcEa7DEdS1s952HSoNLox+MURqCvqMCUtgdJbSsn5ioG+rHy20jmPMJIB6uY3BkimVt8Ddytx7R5q6+0WYHuaRJHrG3atfwlgGP4uztzJWOWVEneisCvIsvEKT57bqOqFWAn/TpB+ZozcPYYSLit2uKUM4mIxPKmLHhb3JFq5auECYS5meYyBPPpS3G+BcWsN/DXMAiAEcMDzMFsdj+tLvQ8Vsg/BxLaUAiYJHw3IOeVCQ6hGGXOBpiee3WB12pXiTcC+ydCizlSNAk4PlxuDExtUuFUKCoEDkBJIMxJAHl9c86TVZGsgvDwza9ag6TEgLOY047kH50dEQOo90sdIBUQTuDgYJn7VviOK9hcu2QB59CF+fle26vMZOGEY97ltQvE7etRq1OQRJ1qOscts7xSbd/scar9Dt2zcSPKSG1EEZJzJ25bUJ7YKh1QsWnMAH1h4nflSC8RfmBhRvqYnEmRrO+/OKfsOvl5g9TJAjMxnfFJ2kNcWxNb90HPDsY/1Be3f9a2L1xhPshn3RqE7bDAE451Y3eHcWWvsdNsXBb1NA87KzwFjMBTv/ADDeho4Y7g7mR0xmf39Krk/RNK6sSS7e04tLqEHVqnykRCAHHcz2FRF26QC0KCQBI2JaOp9edWKKBEL9f1IpC5cGllcIQxYgFoAJJIwBgDG3SnG30TJJdmhavcrhjsojcxkoJrS2b8z7Ukgcvpy7Dl6VNPFEUwWGnqD9wf3imbfi1ogTcC+gAG/P4etEnNdBFQfYg/C3ZkvMmfN7QT8iD02onEaLjM5fRqIhLegoAFAx7S4GEwTE896es8al1pNxdRZV8zFQNxuYCjbPQUYW0NxrLlWKFgSHDKIyCMQQcEEdqTnJbQKEW8Mon8PBnQzEMD5WZMZxsT5sfXej8NadBCWzA5lznuRpjbpROKbBKBAABsods5iSQMHE+brNWJ4WwqgNp1zBCk79CFYwcEYJn1kByna1Y4wp7oqX4q5qj2ZxHPaZicY51l7xJ0UiFXIPvnU24MSvORtny054j4SzEEMqjQMKS7kqI0kFh9vnzSs+DkQwLlD+ZFAaehk4j0NH1atoX2TpMUPiQbcA/wC5mgHMjC5rKhxXDaiI1HG/lby8uQA3rK0+pk+Q5b9hge3Awc6RM/EipWuE4bUp/jNMR/6ZIxMZDyMGKSPDLz+QAPPOdzRxwyED/L7RBB+0cufXvRaQU2OXU4fBPFlhBmLWkz0/6mZn4Upfv2QB7PW+YOpdOkHciB1jnTFjgU3FvaI93c95n5Sak/CW9UGY2InyhvLzDTu3TlQmm6LaaVi6AmAqlh8ABn0ONhSniilWSOSycc9Rx8AKueH4NfMyy6yFGq4oDDSZzicgAfAZJrDYuXGhVtqpMjTECCfzQZMAnvQlTuxSlaqiqS4GEgSxJ6k9vvTDIxAlWMjzRB0wNjznc05xZFpEFy2qmW0XAYZlUwfKrHUQwiYGfnVhwniFwIhshNZUggi0TsSS+oESJG0H9U4vpjUl2slKW0LPkOCTDFsb8hA5DeP0Pata2k3LSjmNYVmMYABG5+HvDNS4q7bclCq8tVwXH0lmWMoXAjlgYH1OEt2yltbgfQdmKqg25sp+EmjjjYuWdCN+2yt7PDQCTHnHcEjp+hqH8MQZE6I90ZJ7Dl159KeILXApGmJJ0gQBG8nJzuKcu8Mjgo1xNMEArqPPMZg5zgRWU/K4NejeHhj5E/Zzp4q0dlPoYPOnku28HXDbx0PIb7f1oHF+BebyOIjdsebOB27/ALK58Hf/AOYsjcEwPgWgVvGcJZRzyhOGGWQvqDq1qOcAIM52I2+HSq/jeKYvKsrrE6Dnbfasu8CigariMRy17D/tU5rWq2u1xUH/ANNSW/8AJjNUordEOT1YxwPidtG1LbRP+3V8jv8AaugsfjLQpIZcRAm5n0VnKjPSPhXIs9gCFV3OSxJAMRygdaGmhzCWTJ/1sQKbihJs7X/30R1i5btuOlzUcdOZ+vWk+I8d4dkZRZtIWiGU3AywQTGYzEZGxrlm8Oubi2xG2AzDcjeI5Gor4dd39m3IZBETU8YlcpF34jxdm6xdiAdIACNvpUKBkbnTv3rVvjrbAbjqGbn8tqq7Hg9xoIOMbZ37gxRLHgNxvzDYnnmN+XSflUvglQ0ptlol1Cc6AZnUzL26jtRNaFPanyhZCnk47g7rIxjMmluH8ItW1d7jq5QwQD5FJyDJ9/FSi5cuJcdSdLqwtyqqFBHvyZHLlij6pWO5PApxnjd4powqB9QQg5aNOuD5dUYnB5VXr4xeGz6f9sD7U5xvhdwuxLAgsWJEkAkkwJ3zPKlH4S2DGpicAxEA9ppqUawS4yTybHFF8vcZpyROkUVHtD/0wfUk/c1FvBnMaJaZnYFYidU7bzUT4Q8SGG5+nM9JGaOUX2HGS6CNxyrhLaCOekGhrx529nb+Kf3xvW18IeJLD1/f7zW/8GeQNa5mDkYg52ouA6n0Av3gykBUXI92Qdj3oKvBkb9c/SujREtqECB2RSwLKAC5UtAUSGz7PfJ0AbYFX/heuSpiDmfLnoARPw7GheSIPxyN2/FzEMPiKMviw/mcfp6Uu3hJUeYNyyCpX6wfhUn8OQERrKnnO2/btRziCjIN/ig5XGHqKFc4/aH7nNRfw22Jy8cjIzielLXOCzhHzsDEx1xQpRE4yD/4k38xrVKjgHzgj5dYrKq4i4yLeWiJ57+8dpgSDJmpOSFCkSQCXLQynvEfWll8WtTmyzcj/mHP/ioP15VJ/GDtb4dEAxkNcI/+5IHyqeLK5ImLecESeRgY6nEAb1Pj7L29IBJG7MCdM4GCIBGZ/wC2lU4riXby3Cp3JT/LEneQgEnOfWpjwx7p1PcLNnVMsVzGSWn6f1pUllsfJvCQLhbigDW8EHAEcojIH60d+Ptg4LHEdhHMCl28P0bw2YzqjttG8g1n8G5iEETmFxy3PKhqLdgnJKhx/FLbCGllBkKYxmT8axeLsRBIEZC6S0nrtAPegHw1J1M3lj8qlRueZ9N/lRLHh9tjAVm3MgmYHPpHP0pNRRSc2TXxWyP5zHQKI9PNW7niKPn2TuvVoj/9d89anb4NQxGZXBGtsqekEZkbd+1N2+CXTJtlj1MsTMhvNvzx6/M+q6C5vspRx7W2MW1UxtAqVvjL5PknEYUBgOmBj4VdCxaBhkXcDSFWRIkkggkmssvakKBiD7ijUIWW2iR3jlScluhqMtNiNtOKueVrhE7hjpAjtI+lZb8Adj5ri8yQASYGftmro3BG8asH3WHPbRmP7UF86SoB084I2BEgCIOd98VHyu6WCviW9iVnwa2W0RcdpggeWO8YPw3p9fCLCqAwXKljpBYwRKRyz3O3KhvbuagyuU2wHM4MgSCCdxg5wOVNPdfS4OptW0meWcHI3A32HpEym/Y1BXoBat21MTpUdBMmZBOMDGwBpjh9JBlyJYQwUBWj3tgTMR5c+8N+Q1kFSQG2G2rGZgAifnRPEH9o6LbebSAwrRli3mcgGNWNMzMLtESr9lV6CewCsFxJBPlfcEAE6IA5wIIpPima4SpUxmSxEgA7xkAYIz9Kw2yh0ACTJGk4EmZPLOTv9jW+JRQ0ku3liGEww3gAxAJMEmftSToGmzRT2YULcSAZJ8hkL10xT3ApaYqeILvZhvJZIDOVgDUSQSNzuBgdaqhZ/wApkCvJSAGAVZABx8IqXhLsLKowIKlgdu8Zkgb9tqcljeQvNVgRFq7cxo0opPs1xoyTlomTG52mpvwN5vK9xVEQQAYImdgBOat+GfXk3Dpx7xUzHMj4Drvyqb2o1FXByJAIPKR358qJeR2EYKipTwIQAXcjeAQB30zt3mmLHC2raz7NYVssxIIjuRGfrHzcvXBjVk7hQNLEEgSZ25Z7fAhtKeS5ESFKlQQAekn++1HJtZYcUnhAWuKQJA3MEpuPUY+o2FbDEgRseRErGRBA57VPSAZIE5nEHlgk7/vvWr3GAAGIBHZoOqTJntt60r9Dr2StM+xIgEARAnckyP8AdUHtuVOjQJiIM5657YmJra3dYBEgZIGltJIO8kDehXNUk6+mwwBLA6sdYA6ye1LNhigTqwxqnaR1EiQQcYgGipdIIkj1aIA5GN8E8utQa5oGWiDOeRByAMTGP1qPEWw0z1iJBxjJnlttPKKukyeTWgj2s6oHPJGBvPp0+MVq3bWSNRJwNjy3JzPOtrdYLH8nmOwYkkbkjJP/ABQ7SEsXzJkjO04yJiBjtigMGNaMnBkgbAb9zjrG8DPOolGGnWYBJ91oOYmTzz+tFRSHKkGQANxyPKCcfGhoQcExkAmQB1gnln9KV2H6B2gitJJnc+YnGR7xxk5jesqY4SCMKogCJPfJrKKTyK5IrOE4dCfOCRiQkg8tmUaZ7GfhWPYTWVlYA2BAgRJluv1NCu3DIHKAYgb7TTFtQcECOwA3Hb1rpbMEgNm9B8mAZ1EDPSO+KbQNJgHQYYvKrtgGcmJPKPpWr6BYgRlvoLf/APR+dIWrzBsE7N+tTtFLZbldLFlOrVJyNazELJjJJ/NG55VIXVLAMgQaRpEACOsac457YMDMUHhfcZuc7+o/vU/D7CNctqyghlMz2Y89xvypJFWSvXBMGcjB3WcD3Tg7enP01w6GZcmQfLrBgwMaTicL+5qfCGbzgwROxAgQeXT4U/Ysr7Pb3pnvNDwJZyLggsTb8ogzpUA4AgAL3k8hgxRgTOlWloOQSTgb4xyPKMVEKDEgHzKMgHGk4zRb7ki5MGNIggRACjbbnUSd0XFVYrwYt3J0yDg+6xUDnJGob4j9kzcI+nABBiGAGrrsBE7GM1Dh7hVTBjTbGntJ5fM/Oo8NeYKSGIzMSdOB/Lt9KGshF4A8Uh1CFcwST7pAkkjfIGTgH+lN8PwtwmRKGNyQoJBEwJnGd6Y4hjBEnedz3/pRbNwl45FWkQP5uXT4UnoawwL6VJzqndgYzgdYHIUeyTABXRM7tq6wAI9B+5pvxawouGABLcsbhTy9T86R4ZQQpIBz0HKsllGmmL3rbAEwfWDBOwiDW3coAdI1MMBZEHG/KneNUSFgQHA2E5Dfm3+tV58zgNnHP4f1oir2OTok967cfLkgLBGScHEEHHyrNYB3JAE6TIB2ABIE8+v9oWkGMfsUmt5tYE4g4gda0pf6Jv8A6WNriWg+QETEmQfcnmdlONto3mhvcuav8wWzuBq0nGCZJEg/KoX/AMv7/NFa4kTn/SPpFQmnmhu1iwd1IgrzmTIjPTODtFH4a46HVnvBBHPke32+Sdvp01//AI+78qYXFwxjK/erk+iUryEN0TqHlaBqfTkgbCSIHzPairxTRuWUiI5ttGVI/rQrh8zdrmkdgYxUltgfKNz0qat0x6VoKVkzOWgGSMDJIAO3PalrzAqWAHllREZ8oJxy3idsEUxwdsF8if7qf6VjWFwY3C7Ejk3Q1OmN5FHe4TpAQNAwZBiZIABGTGc9qHxj3FGloXT7ysYg6hCxBgYA67VZ8EgOoETtv6iqvxy+wZm1GdAz6ERTjNN1QpQpXYNgTIXBELqiFEaZjUCTJ5djmmvKuouREHaQNxOVwDseu9A4YalUncamBHlznOKX4VBpURupmMTIPSraIQe2yM0SxBEwRAGZEHrWy380kd/UgZ/e9McKJUHM6WzJ6/3PzoPFYBPQsflNTeaKWrJWrVxiZKgEyqiMAxg/DrSr8KmoQJwOQO8DpymPhUrQmd8zzPQUxd8qiMb/AEViPsPlT0ydo2EJOPWZnlEACOorKH4ZfZhkzBIGBgQtaqHOnRrGFo//2Q==" alt="Deforestation Image 1">
+            <img src="https://www.shutterstock.com/image-photo/amazon-rainforest-burning-under-smoke-260nw-1487587883.jpg" alt="Deforestation Image 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdi8m3h6KBw78qW-xN7mF4014TQv7mr_gIA&usqp=CAU" alt="Deforestation Image 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Deforestation Impact. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
